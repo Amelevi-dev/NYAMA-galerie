@@ -299,8 +299,14 @@
   .h-62\.5 {
     height: calc(var(--spacing) * 62.5);
   }
+  .h-\[3vh\] {
+    height: 3vh;
+  }
   .h-\[30vh\] {
     height: 30vh;
+  }
+  .h-\[35vh\] {
+    height: 35vh;
   }
   .h-auto {
     height: auto;
@@ -530,6 +536,9 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
+  .text-\[1px\] {
+    font-size: 1px;
+  }
   .text-\[11px\] {
     font-size: 11px;
   }
@@ -677,6 +686,16 @@
       height: 35vh;
     }
   }
+  .sm\:h-\[40vh\] {
+    @media (width >= 40rem) {
+      height: 40vh;
+    }
+  }
+  .sm\:h-\[vh\] {
+    @media (width >= 40rem) {
+      height: vh;
+    }
+  }
   .sm\:w-150 {
     @media (width >= 40rem) {
       width: calc(var(--spacing) * 150);
@@ -718,9 +737,19 @@
       height: auto;
     }
   }
+  .md\:min-h-\[8vh\] {
+    @media (width >= 48rem) {
+      min-height: 8vh;
+    }
+  }
   .md\:min-h-\[80vh\] {
     @media (width >= 48rem) {
       min-height: 80vh;
+    }
+  }
+  .md\:min-h-\[86vh\] {
+    @media (width >= 48rem) {
+      min-height: 86vh;
     }
   }
   .md\:w-105 {
