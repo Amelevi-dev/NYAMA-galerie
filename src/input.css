@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.citations{
+    line-height: 3.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}

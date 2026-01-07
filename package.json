@@ -1,0 +1,16 @@
+{
+  "name": "min-gen-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "tailwindcss -i src/input.css -o src/output.css --watch",
+    "build": "tailwindcss -i src/input.css -o src/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "aos": "^2.3.4"
+  }
+}
